@@ -1,6 +1,4 @@
 # TopicFinder
-zoom transcription
-
 The purpose of this application is to search a professor's recorded online lecture video in order to find specified sections
 that discuss a desired topic. For example, if the user is searching for "memory partitioning", the video will be searched
 to find when these keywords are mentioned, and timestamps will be generated to allow the user to skip directly to the
