@@ -36,7 +36,7 @@ root.geometry("1000x600")
 
 style1=Style()
 style1.configure('TButton', font=('calibri', 19, 'bold'),
-                foreground = 'black')
+                foreground = 'black', background='white')
 
 MenuLabel = Label(root, text="Topic Finder",style='TButton')
 MenuLabel.grid(row=0, column=1)
@@ -49,7 +49,7 @@ Label(root, image = img_f).grid(row = 0, column = 2,
 
 style=Style()
 style.configure('W.TButton', font=('calibri', 16, 'bold'),
-                bg='orange',foreground = 'black')
+                background='blue',foreground = 'black')
 
 D2LLoginButton = Button(root, text="Login to D2L",style='W.TButton',command = login)
 PasteLinksButton = Button(root, text="Paste Zoom Links",style='W.TButton',command = pasteLinks)
